@@ -1,0 +1,5 @@
+<resources>
+    <string name="camera_host">192.168.0.41</string>
+    <string name="username">admin</string>
+    <string name="password">changeme1</string>
+</resources>
