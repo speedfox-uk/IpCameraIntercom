@@ -6,7 +6,7 @@ This is from the work in this project: https://blog.speedfox.co.uk/articles/1666
 ## Building and using the app
 Just import the project into intellij or build on the command line like any other android app
 
-You will need to update cameraSettings.xml with the settings for your camera. Also to use this out of the box you will probably need to update your camera's settings to use 16bit PCM audio at 8000 samples/second. See the blog post above for the exact settings. 
+You will need to update cameraSettings.xml with the settings for your camera. Also you will need to add the ip address of your camera to network_security_config.xml otherwise you will get the error " CLEARTEXT communication to camera not permitted by network security policy". Finally, to use this out of the box you will probably need to update your camera's settings to use 16bit PCM audio at 8000 samples/second. See the blog post above for the exact settings. 
 
 ## Cameras tested with 
 * HikVision DS-2CD2145FWD-IS
