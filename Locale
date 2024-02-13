@@ -1,0 +1,22 @@
+Hi. I came across your application 
+when I was looking for a way to send an isapi 
+command to trigger the alarm output of my camera. 
+a little background. I got a hiwatch camera ds-I114w. 
+it has a microphone, speaker and alarm input/output. 
+I adapted it for an intercom in conjunction with 
+tinycam on a smart TV. I turned off all the alarm input sensors on the camera. 
+and in tinycam I set up wake-up and sound alerts based on motion. 
+I chose On-camera motion sensor as the source. 
+With these settings, when the alarm input closes, 
+tinycam thinks that there is movement and wakes up the smart TV 
+and opens the image. tinycam doesn’t have exactly my camera, 
+but I chose the first hikvision I came across 
+and the interface has icons for turning on the microphone and speaker. 
+and even send an audio file to the camera. 
+but there is no way to send an isapi trigger to an alarm output. 
+What needs to be added to your program 
+to implement this?
+
+tntnx. 
+
+p.s. localization would be nice
